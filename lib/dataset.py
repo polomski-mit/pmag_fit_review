@@ -65,4 +65,3 @@ def dataset_bundle(root, saved):
             changed_since_review=changed))
     fits.sort(key=lambda f:(f['location'],f['site'],f['specimen'],f['name']))
     return dict(directory=str(root),fits=fits,context=context,issues=manifest.get('issues',[]),session=session)
-
