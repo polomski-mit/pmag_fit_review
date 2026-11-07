@@ -1,0 +1,2 @@
+# DemagData/session APIs used by the reviewer; tested against this upstream revision.
+pmagpy @ git+https://github.com/PmagPy/PmagPy.git@144965f51ca7cb413c48127a8c4f8fdd4af7d3e1
